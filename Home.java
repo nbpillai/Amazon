@@ -1,10 +1,37 @@
 
 public abstract class Home {
 	
-	/*Price
-Material (leather, canvas, stainless steel)
-Dimensions
-Type (furniture, decoration, appliances)
-*/
-
+	double myPrice;
+	String myMaterial;
+	String myDimensions;
+	String myType;
+	
+	public Home(double price, String material, String dimensions, String type)
+	{
+		myPrice = price;
+		myMaterial = material;
+		myDimensions = dimensions;
+		myType = type;
+				
+	}
+	
+	public double getPrice()
+	{
+		return myPrice;
+	}
+	
+	public String getMaterials()
+	{
+		return myMaterial;
+	}
+	
+	public String getDimensions()
+	{
+		return myDimensions;
+	}
+	
+	public String getType()
+	{
+		return myType;
+	}
 }
