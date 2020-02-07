@@ -11,8 +11,7 @@ public abstract class Home extends Product{
 		myPrice = price;
 		myMaterial = material;
 		myDimensions = dimensions;
-		myType = type;
-				
+		myType = type;		
 	}
 	
 	public double getPrice()

@@ -11,7 +11,6 @@ public abstract class Toys extends Product {
 		myBrand = brand;
 		myModel = model;
 		myType = type;
-		
 	}
 	
 	public double getPrice() {

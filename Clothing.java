@@ -11,7 +11,6 @@ public abstract class Clothing extends Product {
 		mySize = size;
 		myColor = color;
 		myType = type;
-		
 	}
 	
 	public double getPrice() {

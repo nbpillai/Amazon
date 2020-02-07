@@ -12,8 +12,7 @@ public abstract class Electronics extends Product
 		myPrice = price;
 		myBrand = brand;
 		myModel = model;
-		myType = type;
-				
+		myType = type;	
 	}
 	
 	public double getPrice()
