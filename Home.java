@@ -1,5 +1,5 @@
 
-public abstract class Home {
+public abstract class Home extends Product{
 	
 	double myPrice;
 	String myMaterial;
