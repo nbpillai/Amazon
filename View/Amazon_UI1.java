@@ -1,3 +1,5 @@
+package View;
+
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.EventQueue;
@@ -8,22 +10,9 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 
-public class Amazon_UI extends JFrame {
+public class Amazon_UI1 extends JFrame {
 	
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Amazon_UI frame = new Amazon_UI();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-	
-	public Amazon_UI() {
+	public Amazon_UI1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		
@@ -80,7 +69,8 @@ public class Amazon_UI extends JFrame {
 		
 		JMenuItem mntmCheckout = new JMenuItem("Proceed to Checkout");
 		Cart.add(mntmCheckout);
-	
+		
+		
 	}
 	
 }
